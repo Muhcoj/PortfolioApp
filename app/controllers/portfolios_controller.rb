@@ -3,7 +3,9 @@ class PortfoliosController < ApplicationController
 		@portfolio_items = Portfolio.all
 	end
 
-
+  def javascript
+    @javascript_portfolio_items = Portfolio.javascript
+  end
 
 	def new
 		@portfolio_item = Portfolio.new
