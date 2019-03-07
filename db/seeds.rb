@@ -35,7 +35,7 @@ puts "5 skills created"
 8.times do |portfolio|
 	Portfolio.create!(
 		title: "Title portfolio #{portfolio}",
-		subtitle: "Ruby on Rais",
+		subtitle: "Ruby on Rails",
 		body: "But I’ll tell you what hermits realize.
 				  If you go off into a far, far forest and get very quiet,
 				  you’ll come to understand that you’re connected with everything.
