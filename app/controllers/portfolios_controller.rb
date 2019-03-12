@@ -44,7 +44,6 @@ class PortfoliosController < ApplicationController
 	end
 
 	def show
-
   end
 
   def destroy

@@ -8,4 +8,8 @@ class Blog < ApplicationRecord
 
 	belongs_to :topic, optional: true
 
+	def special_blogs
+		all
+	end
+
 end
