@@ -111,3 +111,22 @@ body {
   color: rgba(255, 255, 255, .5);
 }
 
+
+/*
+ * Custom Styles
+ */
+
+ .card {
+  display: block;
+ }
+
+ .card-body {
+  color: black;
+  text-shadow: none;
+  text-align: left
+ }
+
+ .auth-links a {
+  color: black;
+ }
+
