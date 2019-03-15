@@ -1,5 +1,5 @@
 class BlogsController < ApplicationController
-  before_action :set_blog, only: [:show, :edit, :update, :destroy]
+  before_action :set_blog, only: [:show, :edit, :update, :destroy, :toggle_status]
   layout "blog"
   access all: [:show, :index], user: {except: [:destroy, :new, :create, :edit, :update, :toggle_status ]}, site_admin: :all
 
@@ -71,6 +71,7 @@ class BlogsController < ApplicationController
     elsif @blog.published?
       @blog.draft!
     end
+    redirect_to blog_url, notice: 'Status has been changed'
   end
 
   private
