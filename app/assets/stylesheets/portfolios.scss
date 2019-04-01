@@ -49,7 +49,17 @@ Custom Styles
   width: 100%;
 }
 
-.portfolio-form ul {
+.portfolio-container {
+  padding-top: 30px;
+}
+
+.portfolio-container ul {
   list-style-type: none;
 }
+
+.card img {
+  max-width: 100%;
+}
+
+
 
