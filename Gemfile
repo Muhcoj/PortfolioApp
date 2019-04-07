@@ -46,3 +46,4 @@ gem 'dotenv-rails', require: 'dotenv/rails-now'
 gem 'cocoon', '~> 1.2', '>= 1.2.12'
 
 gem 'gritter', '~> 1.2'
+gem 'twitter', '~> 6.1'
