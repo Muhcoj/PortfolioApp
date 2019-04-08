@@ -17,7 +17,7 @@ class BlogsController < ApplicationController
     @comment = Comment.new
 
     @page_title = @blog.title
-
+    @seo_keywords = @blog.body
   end
 
   # GET /blogs/new
