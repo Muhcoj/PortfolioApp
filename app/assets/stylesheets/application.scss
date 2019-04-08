@@ -45,7 +45,7 @@ body {
 }
 
 .cover-container {
-  max-width: 55em;
+  max-width: 65em;
 }
 
 
@@ -164,6 +164,18 @@ body {
   background-size: cover;
  }
 
+.news {
+  color: black;
+  margin: 10px;
+ }
+
+.news a {
+  color: green;
+ }
+
+.news > .card {
+  padding: 10px;
+ }
 
 
 
